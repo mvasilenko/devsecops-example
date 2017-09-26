@@ -16,6 +16,6 @@ module "network" {
   mgmt_nat_gateway = "true"
   mgmt_flow_log_group_name = "devsecops_example_flow_log"
   devsecops_iam_log_role_name = "devsecops_example_flow_log"
-  aws_region = "${data.aws_region.current.name}"
+#  aws_region = "${data.aws_region.current.name}"
   mgmt_vpc_cidr = "${var.vpc_cidr}"
 }

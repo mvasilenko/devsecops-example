@@ -4,7 +4,7 @@ provider "aws" {
 
 terraform {
   backend "s3" {
-    bucket = "devsecops-example"
+    bucket = "acid232-devsecops-eu-central-1"
     key = "terraform/terraform.tfstate"
   }
 }

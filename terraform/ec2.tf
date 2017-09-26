@@ -8,7 +8,7 @@ data "aws_ami" "wordpress" {
 
   filter {
     name = "name"
-    values = ["wordpress *"]
+    values = ["acid232-wordpress"]
   }
 
   owners = ["self"]

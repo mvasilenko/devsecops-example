@@ -73,6 +73,7 @@ Give (internal) custom domains to services, rather than using the hostnames/IPs 
     export AWS_DEFAULT_REGION=eu-central-1
     aws s3api create-bucket acid232-test-eu-central-1 --create-bucket-configuration LocationConstraint=eu-central-1
     aws s3api put-bucket-versioning --bucket acid232-test-eu-central-1 --versioning-configuration Status=Enabled
+    aws s3api list-buckets
     ```
     NOTE: You will need to replace your bucket name with something unique, because bucket names must be unique per-region. If you get an error that the bucket name is not available, then your choice was not unique.
 

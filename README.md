@@ -88,7 +88,7 @@ Give (internal) custom domains to services, rather than using the hostnames/IPs 
 1. Set up environment using Terraform.
 
     ```sh
-    export AWS_DEFAULT_REGION=us-east-1
+    export AWS_DEFAULT_REGION=eu-central-1
     terraform init
     ```
 
